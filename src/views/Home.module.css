@@ -6,7 +6,7 @@
 .container {
     max-width: 100vw;
     max-height: 100vh;
-    margin: 3rem 4rem 3rem 4rem;
+    margin: 5rem 4rem 3rem 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,5 +21,5 @@
 .container h3 {
     font-family: 'Beau Rivage', cursive;
     font-size: 3rem;
-    color: aliceblue;
+    color: rgba(250, 250, 210);
 }

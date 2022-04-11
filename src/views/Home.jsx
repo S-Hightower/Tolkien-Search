@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
+import Header from '../components/Header';
+
 import styles from './Home.module.css';
 
 const Home = () => {
@@ -29,9 +31,12 @@ const Home = () => {
     }, []);
 
     return (
+        <div>
+            <Header/>
         <div className={styles.container}>
             <h1>{quote}</h1>
             <h3>- {character}</h3>
+        </div>
         </div>
 
     );
