@@ -15,9 +15,11 @@
 .container h1 {
     font-family: 'Bilbo', cursive;
     font-size: 5rem;
+    color: aliceblue;
 }
 
 .container h3 {
     font-family: 'Beau Rivage', cursive;
     font-size: 3rem;
+    color: aliceblue;
 }
