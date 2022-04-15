@@ -37,8 +37,10 @@ const Home = () => {
     return (
         <div>
             <Header/>
-        <div className={styles.container}>
+        <div className={styles.refresh}>
             <button className={styles.css_button_gradient} onClick={refreshPage}>New Quote</button>
+        </div>
+        <div className={styles.container}>
             <h1>{quote}</h1>
             <h3>- {character}</h3>
         </div>
