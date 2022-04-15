@@ -23,3 +23,28 @@
     font-size: 3rem;
     color: rgba(250, 250, 210);
 }
+
+.css_button_gradient {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #f8b500 0%, #fceabb 75%);
+}
+
+.css_button_gradient:hover {
+    background-position: right center;
+}
+
+.css_button_gradient:active {
+    top: 2px;
+}

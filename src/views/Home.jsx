@@ -30,10 +30,15 @@ const Home = () => {
         pullQuotes();
     }, []);
 
+    const refreshPage = () => {
+        window.location.reload();
+    }
+
     return (
         <div>
             <Header/>
         <div className={styles.container}>
+            <button className={styles.css_button_gradient} onClick={refreshPage}>New Quote</button>
             <h1>{quote}</h1>
             <h3>- {character}</h3>
         </div>
