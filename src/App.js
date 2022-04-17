@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Switch>
 
-          <Route exact path='https://tolkien-search.netlify.app/'>
+          <Route exact path='/'>
             <Home/>
           </Route>
 
